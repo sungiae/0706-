@@ -12,8 +12,8 @@ package com.sist.lang;
  *         Object o="Hello";
  *         String s=(String)o;
  *         String s=o.toString();         
- *   
  */
+// 객체를 문자열 변환 할 때 사용되는 메소드 (toString()) => 모든 클래스 (사용자정의, 라이브러리 => toString())
 class Member
 {
 	String name;

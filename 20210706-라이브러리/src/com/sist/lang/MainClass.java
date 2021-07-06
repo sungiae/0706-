@@ -104,8 +104,6 @@ package com.sist.lang;
  *                                            ========
  *                                            a.toString()
  *           = equals()   : 객체 비교 => 가지고 있는 값을 비교
- *         2)
- *         3)
  */    
 class Sawon
 {
@@ -138,9 +136,6 @@ public class MainClass {
 		s=null; // 객체가 null값이거나 사용하지 않으면 => GC()가 자동 해제를 한다
 		// 메모리에서 자동 해제 => Stack (지역변수, 매개변수), 프로그래머 관리 영역 => heap(객체, 배열) => 가비지컬렉션
 		System.gc(); // null인 객체를 가지고 가라
-//		?
-//		?
-//		?
 	}
 
 }
